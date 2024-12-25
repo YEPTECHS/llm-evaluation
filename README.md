@@ -4,32 +4,7 @@ This repository demonstrates how to asynchronously evaluate multi-turn conversat
 
 ## Project Structure
 
-.
-├── core
-│   ├── __init__.py
-│   ├── evaluater.py       # Contains async evaluation logic and calls to deepeval
-│   └── preprocessing.py    # Async CSV reading and data filtering
-├── models
-│   ├── __init__.py
-│   └── metric.py           # Metric definitions (e.g., correctness, relevance) 
-├── tests
-│   ├── data
-│   │   ├── conversation
-│   │   │   └── Result-YepAI.csv
-│   │   └── metrics
-│   │       └── correctness.json
-│   ├── .deepeval_telemtry.txt  # Telemetry file (tracking usage, if enabled)
-│   ├── __init__.py
-│   ├── conftest.py         # Pytest fixtures
-│   ├── test_evaluator.py   # Tests for evaluation logic
-│   └── test_metrics.py     # Tests for metric definitions
-├── .deepeval_telemtry.txt  # Another copy or placeholder of deepeval telemetry
-├── .gitignore
-├── .python-version
-├── README.md
-├── pyproject.toml
-├── ttt_results.py          # A script to print or inspect evaluation results
-└── uv.lock
+
 ![image](https://github.com/user-attachments/assets/9bbd521a-5914-4862-9425-f4c7758889a3)
 
 
