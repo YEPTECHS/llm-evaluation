@@ -30,6 +30,7 @@ This repository demonstrates how to asynchronously evaluate multi-turn conversat
 ├── pyproject.toml
 ├── ttt_results.py          # A script to print or inspect evaluation results
 └── uv.lock
+![image](https://github.com/user-attachments/assets/9bbd521a-5914-4862-9425-f4c7758889a3)
 
 
 ### core/
