@@ -26,6 +26,16 @@ nest_asyncio.apply()
 async def evaluate_flow(
     metrics_dict_or_path_list: List[Union[str, dict]], csv_file_path: str
 ):
+    """
+    This flow evaluates the conversations in the given CSV file using the given metrics.
+
+    Args:
+        metrics_dict_or_path_list (List[Union[str, dict]]): A list of metric definitions or paths to metric definitions.
+        csv_file_path (str): The path to the CSV file containing the conversations to be evaluated.
+
+    Returns:
+        List[EvaluationResult]: A list of evaluation results for each conversation in the CSV file.
+    """
     logger = get_run_logger()
     logger.info("core.flows.evaluation.start")
 
