@@ -7,6 +7,11 @@ This repository demonstrates how to asynchronously evaluate multi-turn conversat
 1. `uv sync --all-extras` to install the required dependencies.
 2. `uv run pre-commit install` to install the pre-commit hooks.
 
+## Pre-commit Notes
+
+- If you cannot commit due to pre-commit errors, try to add new changes by auto fix and commit again.
+- If you still cannot commit, try to check git output for more information and fix the errors manually.
+
 ## Project Structure
 
 
