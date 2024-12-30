@@ -10,6 +10,10 @@ from core.flows.evaluation import evaluate_flow
 async def test_evaluation_flow(
     sample_conversation_csv_data_path, sample_metrics_json_path
 ):
+    """
+    Test the evaluation flow by running it on a sample conversation data and metrics file.
+    """
+
     results: List[EvaluationResult] = await evaluate_flow(
         metrics_dict_or_path_list=[sample_metrics_json_path],
         csv_file_path=sample_conversation_csv_data_path,
