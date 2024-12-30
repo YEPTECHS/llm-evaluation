@@ -4,7 +4,7 @@ This repository demonstrates how to asynchronously evaluate multi-turn conversat
 
 ## Requirements
 
-1. `uv sync` to install the required dependencies.
+1. `uv sync --all-extras` to install the required dependencies.
 2. `uv run pre-commit install` to install the pre-commit hooks.
 
 ## Project Structure

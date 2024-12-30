@@ -6,6 +6,18 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "deepeval>=2.0.6",
+    "pandas>=2.2.3",
     "pre-commit>=4.0.1",
+    "prefect>=3.1.10",
+    "pydantic-settings>=2.7.0",
     "weaviate>=0.1.2",
 ]
+
+[dependency-groups]
+dev = [
+    "pytest-asyncio>=0.25.0",
+    "pytest>=8.3.4",
+]
+
+[tool.ruff]
+line-length = 130
