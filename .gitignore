@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Cache
+.deepeval_telemtry.txt
+
 # C extensions
 *.so
 
